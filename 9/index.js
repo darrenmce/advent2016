@@ -15,6 +15,8 @@ function decompressedSize(input) {
     } else if (input.charAt(i) !== ' ') {
       i++;
       length++;
+    } else {
+      i++;
     }
   }
   return length;
